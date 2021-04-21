@@ -13,3 +13,10 @@
   margin: 0;
   padding: 0;
 }
+
+/* Box sizing And font Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
