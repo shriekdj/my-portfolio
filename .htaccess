@@ -1,9 +1,0 @@
-RewriteEngine on
-
-## Redirects example.com/cool-page.html to example.com/cool-page
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteCond %{REQUEST_URI} ^(.+)\.html$
-RewriteRule (.*)\.html$ /$1 [R=301,L]
-
-Redirect 301 https://shriekdj.github.io/my-portfolio https://google.com
